@@ -1,0 +1,15 @@
+{
+  "name": "Durgiii Care ❤️",
+  "short_name": "BR ❤️",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffb7b2",
+  "theme_color": "#ff4d6d",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

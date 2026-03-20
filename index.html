@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durgiii Care ❤️</title>
+
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h2 id="greet"></h2>
+
+  <p class="welcome">
+    Hey Durgiii ❤️<br>
+    Even if I’m far… I care for you always 💖
+  </p>
+
+  <div class="card">
+    <h3>How are you feeling today? ❤️</h3>
+    <div class="moods">
+      <button onclick="setMood('Fun')">😄</button>
+      <button onclick="setMood('Romantic')">❤️</button>
+      <button onclick="setMood('Emotional')">🥺</button>
+      <button onclick="setMood('Serious')">😐</button>
+    </div>
+    <p id="moodText"></p>
+  </div>
+
+  <div class="card">
+    <h3>Did you eat? 🍽️</h3>
+    <label><input type="checkbox" id="tiffin"> Tiffin</label>
+    <label><input type="checkbox" id="lunch"> Lunch</label>
+    <label><input type="checkbox" id="snacks"> Snacks</label>
+    <label><input type="checkbox" id="dinner"> Dinner</label>
+  </div>
+
+  <div class="card">
+    <h3>Last Period Date 🩸</h3>
+    <input type="date" id="date">
+    <p id="prediction"></p>
+  </div>
+
+  <button class="submit" onclick="submit()">Send update to paapu ❤️</button>
+
+  <p id="done"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
